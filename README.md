@@ -9,3 +9,9 @@ I will be using a cloud composer (a GCP based managed services) to create an air
 
 ## Below is the DAG created in Google composer
 DAG explaining the basic flow of the pipeline
+
+![Alt text](src/images/dag.png "DAG explaining the basic flow of the pipeline")
+
+## Compare Model task output showing different model accuracy
+
+![Alt text](src/images/output.png )
