@@ -1,7 +1,13 @@
 from datetime import datetime, timedelta
 from airflow.operators.python_operator import PythonOperator
+from src.tasks.compare_model import compare_model
+from src.tasks.load_data import load_data
+from src.tasks.models.lr_model import lr_model
+from src.tasks.models.rf_model import rf_model
+from src.tasks.models.svm_model import svm_model
 # The DAG object; we'll need this to instantiate a DAG
 from airflow import DAG
+
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
