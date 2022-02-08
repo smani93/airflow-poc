@@ -1,4 +1,4 @@
-# airflow-poc
+# Comparing Multiple Model Accuracy using Apache Airflow
 
 ## Run multiple models in parallel in airflow
 
